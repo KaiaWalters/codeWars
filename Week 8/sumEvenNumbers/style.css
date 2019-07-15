@@ -1,0 +1,10 @@
+
+let sum = 0;
+function sumEvenNumbers(input) {
+for( let i=0; i <= input.length; i++){
+  if(input[i] % 2 === 0){
+    sum = input[i] + sum
+  }
+}
+ return sum
+}
